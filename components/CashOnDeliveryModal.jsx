@@ -24,8 +24,8 @@ export default function CashOnDeliveryModal(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>You Will Pay {props.total.toFixed(2) + 3} USD After Delivery</h4>
-        <small className="text-danger">* 3 USD For Delivery</small>
+        <h4>You Will Pay {props.total.toFixed(2) + 25} L.E After Delivery</h4>
+        <small className="text-danger">* 25 L.E For Delivery</small>
         <Form onSubmit={(e) => createOrder(e)}>
           <FloatingLabel
             controlId="floatingInput"
