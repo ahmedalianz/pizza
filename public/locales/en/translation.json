@@ -1,0 +1,21 @@
+{
+  "title":"Pizza Store",
+    "ORDER_NOW": "ORDER NOW !!",
+    "Home":"Home",
+    "Products":"Products",
+    "Menu":"Menu",
+    "Events":"Events",
+    "Blog":"Blog",
+    "Content":"Content",
+    "AddPizza":"Add New Pizza",
+    "Pizza_Name":"Pizza Name",
+    "Pizza_Description":"Pizza Description",
+    "Extra_Name":"Extra Name",
+    "Extra_Price":"Extra Price",
+    "Add_Extra":"Add Extra",
+    "Added_Extras":"Added Extras",
+    "Choose_Image":"Choose Image",
+    "Uploaded_Successfully":"Upload Successfully",
+"Create_Product":"Create Product"
+
+  }

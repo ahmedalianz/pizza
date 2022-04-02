@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  padding: 2rem 0;
+}
+.leftSide {
+  flex: 2;
+}
+
+.rightSide {
+  flex: 1;
+  margin-left: 1rem;
+}
+.imgContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.cartTable td {
+  vertical-align: middle;
+  text-align: center;
+}
+.name,
+.price,
+.total,
+.quantity,
+.extras {
+  color: #c92f08;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.wrapper {
+  width: 90%;
+  max-height: 300px;
+  background-color: #333;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.totalText {
+  display: flex;
+}
+.totalTextValue {
+  width: 50%;
+}
+.totalTextTitle {
+  width: 50%;
+}
+.paymentWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.checkout,
+.cash {
+  margin: 1rem 0;
+  font-weight: bold;
+  outline: none;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.checkout {
+  border: 1px solid #c92f08;
+  background-color: #c92f08;
+}
+
+.checkout:hover {
+  background-color: #fff;
+  color: #c92f08;
+  border: 1px solid #c92f08;
+}
+.cash {
+  border: 1px solid teal;
+  background-color: teal;
+}
+.cash:hover {
+  background-color: #fff;
+  color: teal;
+  border: 1px solid teal;
+}
+@media screen and (max-width: 1023px) {
+  .container {
+    flex-direction: column;
+  }
+  .title {
+    text-align: center;
+  }
+
+  .rightSide {
+    display: flex;
+    justify-content: center;
+  }
+}

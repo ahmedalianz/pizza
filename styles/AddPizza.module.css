@@ -1,0 +1,35 @@
+.addButton {
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
+.extraItem {
+  background-color: tomato;
+  padding: 0.5rem;
+  color: white;
+  margin-right: 0.8rem;
+  position: relative;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.removeItem {
+  cursor: pointer;
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 0.25rem 0.4rem;
+  font-size: 0.7rem;
+  top: -0.5rem;
+  right: -0.5rem;
+  z-index: 1;
+  border-radius: 0.5rem;
+}

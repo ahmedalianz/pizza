@@ -1,0 +1,81 @@
+.orderButton {
+  margin: 1rem 0;
+  font-weight: bold;
+  outline: none;
+  color: #fff;
+  background-color: teal;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.statusWrapper {
+  display: flex;
+  padding: 0.5rem 0;
+}
+.done {
+  width: 25%;
+  padding: 0 0.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.inProgress {
+  width: 25%;
+  padding: 0 0.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  animation: progress 1s ease-in-out infinite alternate;
+  -webkit-animation: progress 1s ease-in-out infinite alternate;
+}
+@keyframes progress {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.waiting {
+  opacity: 0.3;
+  width: 25%;
+  padding: 0 0.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.inProgress .checkedIcon,
+.waiting .checkedIcon {
+  display: none;
+}
+@media screen and (max-width: 541px) {
+  .statusWrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .done,
+  .waiting,
+  .inProgress {
+    width: 50%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 376px) {
+  .statusWrapper {
+    flex-direction: column;
+  }
+  .done,
+  .waiting,
+  .inProgress {
+    width: 80%;
+  }
+}

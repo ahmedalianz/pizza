@@ -1,0 +1,27 @@
+.container {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-size: 2rem;
+  color: #d1411e;
+  font-weight: bold;
+}
+.imgContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.table td,
+.table th {
+  vertical-align: middle;
+  text-align: center;
+}
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+}
+.actions button {
+  margin: 0 0.25rem;
+}

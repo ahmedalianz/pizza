@@ -1,0 +1,60 @@
+.container {
+  height: 20rem;
+  position: relative;
+}
+.bgContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.textContainer {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+  padding: 1rem 2rem 0;
+  width: 100%;
+}
+.card {
+  width: 25%;
+}
+.title {
+  /* color: #8a0101;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255); */
+  font-weight: bold;
+  color: #fff;
+}
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1025px) {
+  .card {
+    width: 50%;
+    padding: 0 1rem;
+  }
+  .container {
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 415px) {
+  .container {
+    height: 60rem;
+  }
+  .card {
+    width: 100%;
+    padding: 1rem;
+  }
+  .card:nth-child(4) {
+    height: 15rem;
+  }
+}
+@media screen and (max-width: 361px) {
+  .card:nth-child(4) {
+    height: 13rem;
+  }
+}
