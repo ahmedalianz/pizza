@@ -9,12 +9,16 @@ To initiate the application you will need to do
 then
 
 **npm start**
-
-![alt text](https://i.ibb.co/p1wGFH2/Screenshot-1.png)
-![alt text](https://i.ibb.co/pLHjmBQ/Screenshot-2.png)
-![alt text](https://i.ibb.co/n0gX0W4/Screenshot-3.png)
-![alt text](https://i.ibb.co/5xtp5Yj/Screenshot-4.png)
-![alt text](https://i.ibb.co/BCq9KF3/Screenshot-5.png)
-![alt text](https://i.ibb.co/RYydcWp/Screenshot-6.png)
-![alt text](https://i.ibb.co/Z2nXV04/Screenshot-7.png)
-![alt text](https://i.ibb.co/kyh1Pwc/Screenshot-8.png)
+![alt text](https://i.ibb.co/C7p9c9q/Screenshot-1.png)
+![alt text](https://i.ibb.co/tq6vKkc/Screenshot-2.png)
+![alt text](https://i.ibb.co/KbT5VC6/Screenshot-3.png)
+![alt text](https://i.ibb.co/ZXnqRMY/Screenshot-4.png)
+![alt text](https://i.ibb.co/zVXmQwn/Screenshot-5.png)
+![alt text](https://i.ibb.co/vXcpcq0/Screenshot-6.png)
+![alt text](https://i.ibb.co/tc2WkBF/Screenshot-7.png)
+![alt text](https://i.ibb.co/rFN4M72/Screenshot-8.png)
+![alt text](https://i.ibb.co/R0ZPdst/Screenshot-9.png)
+![alt text](https://i.ibb.co/P4kdFR1/Screenshot-10.png)
+![alt text](https://i.ibb.co/QKS7LQt/Screenshot-11.png)
+![alt text](https://i.ibb.co/Pg1zJcZ/Screenshot-12.png)
+![alt text](https://i.ibb.co/G2By3Cp/Screenshot-13.png)
