@@ -21,7 +21,10 @@ export default function Cart() {
   const discount = 0;
   const createOrder = async (data) => {
     try {
-      let res = await axios.post(`${process.env.API_URL}/orders`, data);
+      let res = await axios.post(
+        `https://pizza-nu-five.vercel.app/api/orders`,
+        data
+      );
       res.status === 201 && router.push(`/orders/${res.data._id}`);
       dispatch(clearCart());
     } catch (err) {

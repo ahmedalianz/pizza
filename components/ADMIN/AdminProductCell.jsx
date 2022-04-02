@@ -11,7 +11,9 @@ export default function AdminProductCell({ product, index }) {
   const dispatch = useDispatch();
   const deleteProduct = async () => {
     try {
-      await axios.delete(`${process.env.API_URL}/products/${product._id}`);
+      await axios.delete(
+        `https://pizza-nu-five.vercel.app/api/products/${product._id}`
+      );
       toast.success(`Product Removed successfully`);
       dispatch(deleteAdminProduct(product._id));
     } catch (err) {

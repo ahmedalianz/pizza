@@ -148,7 +148,7 @@ export default function Order({ order }) {
   );
 }
 export const getServerSideProps = async ({ params }) => {
-  let res = await axios(`${process.env.API_URL}/orders/${params.id}`);
+  let res = await axios(`${https://pizza-nu-five.vercel.app/api}/orders/${params.id}`);
   console.log(res);
   return {
     props: { order: res.data },

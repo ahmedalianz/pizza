@@ -91,7 +91,9 @@ export default function Product({ pizza }) {
   );
 }
 export const getServerSideProps = async ({ params }) => {
-  let res = await axios(`${process.env.API_URL}/products/${params.id}`);
+  let res = await axios(
+    `https://pizza-nu-five.vercel.app/api/products/${params.id}`
+  );
   console.log(res);
   return {
     props: { pizza: res.data },

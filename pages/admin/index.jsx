@@ -72,8 +72,8 @@ export const getServerSideProps = async (ctx) => {
       },
     };
   }
-  let res1 = await axios(`${process.env.API_URL}/products`);
-  let res2 = await axios(`${process.env.API_URL}/orders`);
+  let res1 = await axios(`https://pizza-nu-five.vercel.app/api/products`);
+  let res2 = await axios(`https://pizza-nu-five.vercel.app/api/orders`);
   return {
     props: { products: res1.data, orders: res2.data },
   };

@@ -18,7 +18,7 @@ export default function Home({ pizzaList, admin }) {
   );
 }
 export const getServerSideProps = async (ctx) => {
-  let res = await axios(`${process.env.API_URL}/products`);
+  let res = await axios(`https://pizza-nu-five.vercel.app/api/products`);
   let admin = false;
   const myCookies = ctx.req?.cookies || "";
   if (myCookies.token === process.env.TOKEN) {
