@@ -1,6 +1,6 @@
 # Pizza Ordering App
 
-### Running on the following link : [Pizza Ordering App](https://pizza-nu-five.vercel.app//)
+### Running on the following link : [Pizza Ordering App](https://pizza-sooty.vercel.app//)
 
 To initiate the application you will need to do
 

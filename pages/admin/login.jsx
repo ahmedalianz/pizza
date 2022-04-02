@@ -20,7 +20,7 @@ export default function Login() {
   const loginAdmin = async (e) => {
     e.preventDefault();
     try {
-      let res = await axios.post(`https://pizza-nu-five.vercel.app/api/login`, {
+      let res = await axios.post(`https://pizza-sooty.vercel.app/api/login`, {
         adminName: name,
         adminPassword: password,
       });

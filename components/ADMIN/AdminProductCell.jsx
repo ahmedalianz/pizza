@@ -12,7 +12,7 @@ export default function AdminProductCell({ product, index }) {
   const deleteProduct = async () => {
     try {
       await axios.delete(
-        `https://pizza-nu-five.vercel.app/api/products/${product._id}`
+        `https://pizza-sooty.vercel.app/api/products/${product._id}`
       );
       toast.success(`Product Removed successfully`);
       dispatch(deleteAdminProduct(product._id));

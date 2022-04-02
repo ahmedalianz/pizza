@@ -12,7 +12,7 @@ export default function AdminOrderCell({ order, index }) {
   const moveOrderToNextStage = async () => {
     try {
       let res = await axios.patch(
-        `https://pizza-nu-five.vercel.app/api/orders/${order._id}`,
+        `https://pizza-sooty.vercel.app/api/orders/${order._id}`,
         {
           status: orderStatus + 1,
         }
@@ -26,7 +26,7 @@ export default function AdminOrderCell({ order, index }) {
   const cancelOrder = async () => {
     try {
       await axios.delete(
-        `https://pizza-nu-five.vercel.app/api/orders/${order._id}`
+        `https://pizza-sooty.vercel.app/api/orders/${order._id}`
       );
       toast.success(`Order cancelled`);
       dispatch(deleteAdminOrder(order._id));

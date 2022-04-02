@@ -76,7 +76,7 @@ export default function AddPizza() {
     e.preventDefault();
     try {
       if (!extraOptions.length && extraItem) throw new Error();
-      await axios.post(`https://pizza-nu-five.vercel.app/api/products`, {
+      await axios.post(`https://pizza-sooty.vercel.app/api/products`, {
         title,
         desc,
         image,
