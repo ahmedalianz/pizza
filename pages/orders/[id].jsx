@@ -149,7 +149,7 @@ export default function Order({ order }) {
 }
 export const getServerSideProps = async ({ params }) => {
   let res = await axios(
-    `https://pizza-sooty.vercel.app/api/orders/${params.id}`
+    `${process.env.NEXT_PUBLIC_API_URL}/orders/${params.id}`
   );
   console.log(res);
   return {

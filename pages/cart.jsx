@@ -22,7 +22,7 @@ export default function Cart() {
   const createOrder = async (data) => {
     try {
       let res = await axios.post(
-        `https://pizza-sooty.vercel.app/api/orders`,
+        `${process.env.NEXT_PUBLIC_API_URL}/orders`,
         data
       );
       res.status === 201 && router.push(`/orders/${res.data._id}`);

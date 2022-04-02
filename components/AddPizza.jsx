@@ -72,11 +72,12 @@ export default function AddPizza() {
       }
     );
   };
+  console.log(process.env.NEXT_PUBLIC_API_URL);
   const cteateProduct = async (e) => {
     e.preventDefault();
     try {
       if (!extraOptions.length && extraItem) throw new Error();
-      await axios.post(`https://pizza-sooty.vercel.app/api/products`, {
+      await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/products`, {
         title,
         desc,
         image,
