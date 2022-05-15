@@ -20,13 +20,10 @@ export default function Login() {
   const loginAdmin = async (e) => {
     e.preventDefault();
     try {
-      let res = await axios.post(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/login`,
-        {
-          adminName: name,
-          adminPassword: password,
-        }
-      );
+      let res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/login`, {
+        adminName: name,
+        adminPassword: password,
+      });
       res.status === 200 && router.push("/admin");
     } catch (err) {
       console.log(err);
