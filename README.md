@@ -19,7 +19,7 @@ the admin can contol products & orders
 ![alt text](https://i.ibb.co/vXcpcq0/Screenshot-6.png)
 it supports arabic language
 ![alt text](https://i.ibb.co/tc2WkBF/Screenshot-7.png)
-you can a new pizza
+you can create a new pizza
 ![alt text](https://i.ibb.co/rFN4M72/Screenshot-8.png)
 with any extras
 ![alt text](https://i.ibb.co/R0ZPdst/Screenshot-9.png)
